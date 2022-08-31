@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/Mr-NotSoCreative/product-preview-card-component-main)
-- Live Site URL: [live site](https://mr-notsocreative.github.io/product-preview-card-component-main/)
+- Live Site URL: [Github Pages](https://mr-notsocreative.github.io/product-preview-card-component-main/)
 
 ## My process
 
