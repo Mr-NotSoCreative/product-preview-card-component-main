@@ -108,7 +108,7 @@ body {
 }
 .btn:hover {
   cursor: pointer;
-  background-color: hsl(156, 42%, 15%);
+  background-color: #1a4031;
 }
 .strike {
   text-decoration: line-through;
