@@ -1,67 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  
-  <title>Frontend Mentor | Product preview card component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style> 
-</head>
-<body>
-  <main class="container">
-    <div class="card">
-      <div class="img-div">
-        <div class="desktop-version-img">
-          <img
-            class="perfume-img"
-            src="./images/image-product-desktop.jpg"
-            alt="image of Gabrielle Essence Eau De Parfum"
-          />
+    <title>Frontend Mentor | Product preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <div class="card">
+        <div class="img-div">
+          <div class="desktop-version-img">
+            <img
+              class="perfume-img"
+              src="./images/image-product-desktop.jpg"
+              alt="image of Gabrielle Essence Eau De Parfum"
+            />
+          </div>
+          <div class="mobile-version-img">
+            <img
+              src="./images/image-product-mobile.jpg"
+              alt="image of Gabrielle Essence Eau De Parfum"
+            />
+          </div>
         </div>
-        <div class="mobile-version-img">
-          <img
-            src="./images/image-product-mobile.jpg"
-            alt="image of Gabrielle Essence Eau De Parfum"
-          />
-        </div>
+        <article class="img-desc">
+          <div class="title-div">
+            <h1 class="title">Gabrielle Essence Eau De Parfum</h1>
+            <p class="top">PERFUME</p>
+          </div>
+          <p class="product-info">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL
+          </p>
+
+          <div class="price-div">
+            <p class="main-price">$149.99</p>
+            <p class="strike">$169.99</p>
+          </div>
+          <button class="btn">
+            <img src="./images/icon-cart.svg" alt="cart icon" />
+            <p>Add to cart</p>
+          </button>
+        </article>
       </div>
-      <article class="img-desc">
-        <div class="title-div">
-          <h1 class="title">Gabrielle Essence Eau De Parfum</h1>
-          <p class="top">PERFUME</p>
-        </div>
-        <p class="product-info">
-          A floral, solar and voluptuous interpretation composed by Olivier
-          Polge, Perfumer-Creator for the House of CHANEL
-        </p>
-
-        <div class="price-div">
-          <p class="main-price">$149.99</p>
-          <p class="strike">$169.99</p>
-        </div>
-        <button type="submit" class="btn">
-          <img src="./images/icon-cart.svg" alt="cart icon" />
-          <p>Add to cart</p>
-        </button>
-      </article>
-    </div>
-    <footer class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Fahim Hossain</a>. 
-     </footer>
-  </main>
-
-
-  
-  
-  
-</body>
+      <footer class="attribution">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://www.frontendmentor.io/profile/Mr-NotSoCreative">Fahim Hossain</a>.
+      </footer>
+    </main>
+  </body>
 </html>
